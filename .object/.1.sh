@@ -13,5 +13,5 @@ echo ""
 cd ~/CYBE-SHR/.object
 echo -e '\e[1;96m'
 read -p '  Type Shell Name ❯ ' name
-sed -e "s/\CYBER SHR/$name/g" . CYBER-SHR.zsh-theme > $HOME/.oh-my-zsh/themes/CYBER-SHR.zsh-theme
+sed -e "s/\CYBER SHR/$name/g" .CYBER-SHR.zsh-theme > $HOME/.oh-my-zsh/themes/CYBER-SHR.zsh-theme
 
