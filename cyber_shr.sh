@@ -97,7 +97,7 @@ banner
 4line() { chsh -s bash; cd ~/CYBER-SHR; bash cyber_shr.sh; }
 5line() { rm -rf ~/.zshrc; cd ~/CYBER-SHR/.object; bash .2.sh; clear ; cd ~/CYBER-SHR; bash cyber_shr.sh; }
 6line() { cd ~/CYBER-SHR/.object; bash .1.sh; clear ; cd ~/CYBER-SHR; bash cybe_shr.sh; }
-7line() { cd ~/CYBER-SHR/.object; rm -rf ~/.zshrc; chsh -s zsh; bash .3.sh; clear ; cd ~/Termux-os ; bash os.sh; }
+7line() { cd ~/CYBER-SHR/.object; rm -rf ~/.zshrc; chsh -s zsh; bash .3.sh; clear ; cd ~/CYBER-SHR ; bash cyber_shr.sh; }
 10line() { rm -rf ~/CYBER-SHR; cd; git clone https://github.com/Suman789438/CYBER-SHR.git; cd ~/CYBER-SHR; bash cybe_shr.sh; }
 8line() {
     echo -e "\n${C}Initialising Security Protocol...${RS}"
